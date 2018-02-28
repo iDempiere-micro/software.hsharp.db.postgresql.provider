@@ -1,12 +1,14 @@
 package software.hsharp.db.postgresql.provider
 
 import com.mchange.v2.c3p0.ComboPooledDataSource
+import org.osgi.service.component.annotations.Component
 import software.hsharp.api.icommon.ICConnection
 import software.hsharp.api.icommon.IDatabase
 import software.hsharp.api.icommon.IDatabaseSetup
 import java.sql.DriverManager
 import javax.sql.DataSource
 
+@Component
 open class PgDB : IDatabase
 {
     private val DRIVER : String = "org.postgresql.Driver"

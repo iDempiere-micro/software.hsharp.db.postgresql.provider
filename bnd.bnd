@@ -8,3 +8,4 @@ Import-Package: !com.mchange.v2.c3p0*,javax.naming*;resolution:=optional,*;resol
 Export-Package: \
     software.hsharp.db.postgresql.provider*,\
     com.mchange.v2.c3p0*
+-dsannotations-options: extender
