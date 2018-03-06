@@ -14,6 +14,9 @@ data class PgDatabaseSetup(
         val initialPoolSize: Int = 10,
         val minPoolSize: Int = 5,
         val maxPoolSize: Int = 90,
-        val maxStatementsPerConnection: Int = 0,
-        val unreturnedConnectionTimeout : Int
+        val maxStatementsPerConnection: Int = 2,
+        val unreturnedConnectionTimeout : Int,
+        val maxRetries : Int = 5,
+        val minWaitSecs : Int = 2,
+        val maxWaitSecs : Int = 10
 ) : IDatabaseSetup
