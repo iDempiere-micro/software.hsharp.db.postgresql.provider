@@ -85,8 +85,7 @@ open class PgDB : IDatabase
         dataSourceObj.minPoolSize = params.minPoolSize
         dataSourceObj.maxPoolSize = params.maxPoolSize
 
-        if (params.maxStatementsPerConnection > 0)
-            dataSourceObj.maxStatementsPerConnection = params.maxStatementsPerConnection
+        dataSourceObj.maxStatementsPerConnection = params.maxStatementsPerConnection
 
         if (params.unreturnedConnectionTimeout > 0) {
             dataSourceObj.unreturnedConnectionTimeout = 1200
