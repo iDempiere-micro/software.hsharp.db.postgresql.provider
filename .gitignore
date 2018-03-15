@@ -109,3 +109,5 @@ generated
 
 /build.txt
 /.metadata/
+
+**/bin/**
