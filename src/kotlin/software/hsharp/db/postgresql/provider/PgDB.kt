@@ -197,7 +197,7 @@ open class PgDB : IDatabase
         if ( result != null ) {
             // now we know the connection can be acquired (e.g. the correct username and password supplied)
             // let's help the others by trying to close the idle connections if we are still under bigger load
-            cleanup(result!!)
+            cleanup(result)
         }
         if ( exception != null ) throw exception
         return result!!

@@ -183,6 +183,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project"/>
+    <orderEntry level="project" name="scala-sdk-2.12.3" type="library"/>
     <orderEntry module-name="software.hsharp.api.icommon" type="module" scope="PROVIDED"/>
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
@@ -689,7 +690,7 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="file:///home/david/dev/ngdaisy-be/subprojects/software.hsharp.api.icommon/bin"/>
+          <root url="file:///home/david/dev/ERP/subprojects/software.hsharp.api.icommon/bin"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>
@@ -1201,7 +1202,7 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file:///home/david/dev/ngdaisy-be/subprojects/software.hsharp.api.icommon/bin"/>
+          <root url="file:///home/david/dev/ERP/subprojects/software.hsharp.api.icommon/bin"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>
@@ -1812,12 +1813,11 @@
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="file:///home/david/dev/ngdaisy-be/subprojects/software.hsharp.api.icommon/bin"/>
+          <root url="file:///home/david/dev/ERP/subprojects/software.hsharp.api.icommon/bin"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>
       </library>
     </orderEntry>
-    <orderEntry level="project" name="scala-sdk-2.12.3" type="library"/>
   </component>
 </module>
