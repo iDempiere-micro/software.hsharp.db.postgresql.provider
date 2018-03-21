@@ -127,7 +127,7 @@ open class PgDB : IDatabase
                 .append("/").append(connection.dbName)
                 .append("?encoding=UNICODE");
         if (connection.ssl)
-            sb.append( "&ssl=true" )
+            sb.append( "&ssl=true&sslmode=require" )
 
         return sb.toString();
     }   //  getConnectionString
