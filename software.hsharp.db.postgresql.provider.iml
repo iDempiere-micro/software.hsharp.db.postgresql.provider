@@ -43,7 +43,7 @@
     <orderEntry type="inheritedJdk"/>
     <orderEntry type="sourceFolder" forTests="false"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project"/>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.30" level="project"/>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.31" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.framework:1.8.0" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.service.component:1.3.0" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.service.component.annotations:1.3.0" level="project"/>
@@ -56,7 +56,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.typesafe:config:1.3.2" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project"/>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project"/>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.31" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.25.1" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-server:2.25.1" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-client:2.25.1" level="project"/>
@@ -69,10 +69,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project"/>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.30" level="project"/>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project"/>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project"/>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project"/>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.31" level="project"/>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project"/>
@@ -87,7 +87,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project"/>
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:13.0" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project"/>
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.30" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.31" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.osgi:org.osgi.framework:1.8.0" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.osgi:org.osgi.service.component:1.3.0" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.osgi:org.osgi.service.component.annotations:1.3.0" level="project"/>
@@ -100,7 +100,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.typesafe:config:1.3.2" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project"/>
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.31" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.25.1" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jersey.core:jersey-server:2.25.1" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jersey.core:jersey-client:2.25.1" level="project"/>
@@ -113,10 +113,10 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project"/>
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.30" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project"/>
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project"/>
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.31" level="project"/>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project"/>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project"/>
@@ -136,7 +136,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.scala-lang.modules:scala-xml_2.12:1.0.5" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.30" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.31" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.osgi:org.osgi.framework:1.8.0" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.osgi:org.osgi.service.component:1.3.0" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.osgi:org.osgi.service.component.annotations:1.3.0" level="project"/>
@@ -149,8 +149,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.typesafe:config:1.3.2" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.2.30" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.31" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.2.31" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.25.1" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.jersey.core:jersey-server:2.25.1" level="project"/>
@@ -164,11 +164,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.30" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.31" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.30" level="project"/>
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.31" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.31" level="project"/>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.31" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project"/>
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project"/>
@@ -199,11 +199,11 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -342,11 +342,11 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -485,11 +485,11 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -507,22 +507,22 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -711,11 +711,11 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -854,11 +854,11 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -997,11 +997,11 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -1019,22 +1019,22 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -1278,11 +1278,11 @@
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4c1a4b78fd0777cb29bf3ff89c8053ef6dbfd3fc/kotlin-osgi-bundle-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.30/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.31/4482b73ba99ec897d089e2e375533407801fc2dc/kotlin-osgi-bundle-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -1421,22 +1421,22 @@
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.31/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.30/f5e0765d2884778c25c3cdf5c792657d112c81d1/kotlin-test-junit-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.31/f5e0765d2884778c25c3cdf5c792657d112c81d1/kotlin-test-junit-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.30/446f024042222b1c7bc08a890bda91b8a0b0d4e1/kotlin-test-junit-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.31/446f024042222b1c7bc08a890bda91b8a0b0d4e1/kotlin-test-junit-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -1586,11 +1586,11 @@
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3159ff5936aa570a90050d385cb717fbb6c1723a/kotlin-reflect-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.30/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/3b26eda48f049afcd1a84e78797a558d0764e471/kotlin-reflect-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -1608,33 +1608,33 @@
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.31/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.30/2bb6ea8d314aa0c96bf62838a2b11c79240e09a9/kotlin-test-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.31/2bb6ea8d314aa0c96bf62838a2b11c79240e09a9/kotlin-test-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.30/2ac9abc8f3ecc59ff5f0dcb09ea0990b6caf8907/kotlin-test-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.31/2ac9abc8f3ecc59ff5f0dcb09ea0990b6caf8907/kotlin-test-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.30.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.31.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.30-sources.jar!/"/>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.31-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
