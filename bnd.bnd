@@ -2,11 +2,10 @@
 #   SOFTWARE HSHARP DB POSTGRESQL PROVIDER
 #
 Bundle-Name: H# PostgreSQL Provider
-Bundle-ClassPath: .,c3p0-0.9.5.2.jar,mchange-commons-java-0.2.15.jar
-Import-Package: !com.mchange.v2.c3p0*,javax.naming*;resolution:=optional,*;resolution:=optional
+Bundle-ClassPath: .,mchange-commons-java-0.2.15.jar
+Import-Package: !javax.naming*;resolution:=optional,*;resolution:=optional
 -includeresource: \
-    {c3p0-0.9.5.2.jar}, {mchange-commons-java-0.2.15.jar}
+    {mchange-commons-java-0.2.15.jar}
 Export-Package: \
-    software.hsharp.db.postgresql.provider*,\
-    com.mchange.v2.c3p0*
+    software.hsharp.db.postgresql.provider*
 -dsannotations-options: extender

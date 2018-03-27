@@ -8,7 +8,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.log4j/com.springsource.org.apache.log4j
     compile group: 'org.apache.log4j', name: 'com.springsource.org.apache.log4j', version: '1.2.15'
 
-    compile files('./c3p0-0.9.5.2.jar')
     compile files('./mchange-commons-java-0.2.15.jar')
 
     compile project(':software.hsharp.api.icommon')

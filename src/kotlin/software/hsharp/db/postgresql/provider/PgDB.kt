@@ -1,12 +1,12 @@
 package software.hsharp.db.postgresql.provider
 
-import com.mchange.v2.c3p0.ComboPooledDataSource
 import org.osgi.service.component.annotations.Component
 import software.hsharp.api.icommon.ICConnection
 import software.hsharp.api.icommon.IDatabase
 import software.hsharp.api.icommon.IDatabaseSetup
 import java.sql.Connection
 import java.sql.Driver
+import java.sql.DriverManager
 import java.sql.DriverManager.registerDriver
 import java.sql.DriverManager.setLoginTimeout
 import java.util.*
@@ -19,14 +19,6 @@ open class PgDB : IDatabase
 
     /** Connection Timeout in seconds   */
     private val CONNECTION_TIMEOUT = 10;
-
-    private var dataSourceObj : ComboPooledDataSource? = null
-
-    protected val dataSource: ComboPooledDataSource
-        get() {
-            if ( dataSourceObj == null ) dataSourceObj = ComboPooledDataSource()
-            return dataSourceObj!!
-        }
 
     /** Driver                  */
     private val driverObj : org.postgresql.Driver = registerIfNeeded( org.postgresql.Driver() )
@@ -45,69 +37,20 @@ open class PgDB : IDatabase
     }
 
     override val status: String
-    get() = doGetStatus()
+    get() = ""
     override val driver: Driver
     get() = driverObj
 
     override val defaultSetupParameters : IDatabaseSetup
     get() = PgDatabaseSetup( dataSourceName = "default", checkoutTimeout = 10, unreturnedConnectionTimeout = 10 )
 
-    /**
-     * Get Status
-     * @return status info
-     */
-    private fun doGetStatus(): String {
-        val sb = StringBuilder()
-        try {
-            sb.append("# Connections: ").append(dataSource.numConnections)
-            sb.append(" , # Busy Connections: ").append(dataSource.numBusyConnections)
-            sb.append(" , # Idle Connections: ").append(dataSource.numIdleConnections)
-            sb.append(" , # Orphaned Connections: ").append(dataSource.numUnclosedOrphanedConnections)
-            sb.append(" , # Min Pool Size: ").append(dataSource.minPoolSize)
-            sb.append(" , # Max Pool Size: ").append(dataSource.maxPoolSize)
-            sb.append(" , # Max Statements Cache Per Session: ").append(dataSource.maxStatementsPerConnection)
-        } catch (e: Exception) {
-            sb.append( "EXCEPTION:" + e.toString() )
-        }
-
-        return sb.toString()
-    }    //	getStatus
-
     override fun setup(parameters: IDatabaseSetup) {
-        val params : PgDatabaseSetup = parameters as PgDatabaseSetup
-        dataSource.dataSourceName = params.dataSourceName
-        dataSource.driverClass = DRIVER
-        dataSource.preferredTestQuery = DEFAULT_CONN_TEST_SQL
-        dataSource.idleConnectionTestPeriod = params.idleConnectionTestPeriod
-        dataSource.maxIdleTimeExcessConnections = params.maxIdleTimeExcessConnections
-        dataSource.maxIdleTime = params.maxIdleTime
-        dataSource.isTestConnectionOnCheckin = params.testConnectionOnCheckin
-        dataSource.isTestConnectionOnCheckout = params.testConnectionOnCheckout
-        dataSource.acquireRetryAttempts = params.acquireRetryAttempts
-        if (params.checkoutTimeout > 0)
-            dataSource.checkoutTimeout = params.checkoutTimeout
-
-        dataSource.initialPoolSize = params.initialPoolSize
-        dataSource.initialPoolSize = params.initialPoolSize
-        dataSource.minPoolSize = params.minPoolSize
-        dataSource.maxPoolSize = params.maxPoolSize
-
-        dataSource.maxStatementsPerConnection = params.maxStatementsPerConnection
-
-        if (params.unreturnedConnectionTimeout > 0) {
-            dataSource.unreturnedConnectionTimeout = 1200
-            dataSource.isDebugUnreturnedConnectionStackTraces = true
-        }
-
-        maxRetries = params.maxRetries
-        minWaitSecs = params.minWaitSecs
-        maxWaitSecs = params.maxWaitSecs
     }
 
+    private var cnnString : String? = null
+
     override fun connect(connection: ICConnection) {
-        dataSource.jdbcUrl = getConnectionURL(connection)
-        dataSource.user = connection.dbUid
-        dataSource.password = connection.dbPwd
+        cnnString= getConnectionURL(connection) + "&user=" +  connection.dbUid + "&password=" + connection.dbPwd
     }
 
     /**
@@ -134,23 +77,13 @@ open class PgDB : IDatabase
 
     var dbName = ""
 
-    /**
-     * String Representation
-     * @return info
-     */
-    override fun toString(): String {
-        val sb = StringBuilder("DB_PostgreSQL[")
-        sb.append(doGetStatus())
-        sb.append("]")
-        return sb.toString()
-    }   //  toString
 
     fun getNumBusyConnections() : Int {
-        return dataSource.numBusyConnections
+        return 0
     }
 
     fun getJdbcUrl() : String {
-        return dataSource.jdbcUrl
+        return cnnString!!
     }
 
     /**
@@ -159,7 +92,7 @@ open class PgDB : IDatabase
     open fun close() {
 
         try {
-            dataSource.close()
+            //dataSource.close()
         } catch (e: Exception) {
         }
     }    //	close
@@ -170,37 +103,10 @@ open class PgDB : IDatabase
 
     override val CachedConnection: Connection
     get() {
-        var result : Connection? = null
-        var exception : Exception? = null
-        var retries = 1
-
-        while ( result == null && retries < maxRetries + 1 ) {
-            try {
-                result = dataSource.connection
-            } catch (ex:Exception) {
-                exception = ex
-            }
-            if ( result == null ) {
-                // give it another try (but short, since it can be just wrong username and password)
-                val randomNum : Long = (rand.nextInt(maxWaitSecs - minWaitSecs + 1) + minWaitSecs).toLong()
-                Thread.sleep(randomNum * 1000)
-                try {
-                    result = dataSource.connection
-                } catch (ex:Exception) {
-                    exception = ex
-                }
-            }
-
-            retries++
-        }
-
-        if ( result != null ) {
-            // now we know the connection can be acquired (e.g. the correct username and password supplied)
-            // let's help the others by trying to close the idle connections if we are still under bigger load
-            cleanup(result)
-        }
-        if ( exception != null ) throw exception
-        return result!!
+        //Class.forName("org.postgresql.Driver");
+        val url = cnnString!!
+        val conn = DriverManager.getConnection(url)
+        return conn
     }
 
     override fun cleanup(connection: Connection) {
