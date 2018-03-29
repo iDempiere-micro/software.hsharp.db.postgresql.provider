@@ -14,11 +14,11 @@ import java.util.*
 @Component
 open class PgDB : IDatabase
 {
-    private val DRIVER : String = "org.postgresql.Driver"
-    private val DEFAULT_CONN_TEST_SQL : String = "SELECT 1"
+    protected val DRIVER : String = "org.postgresql.Driver"
+    protected val DEFAULT_CONN_TEST_SQL : String = "SELECT 1"
 
     /** Connection Timeout in seconds   */
-    private val CONNECTION_TIMEOUT = 10;
+    protected val CONNECTION_TIMEOUT = 10;
 
     /** Driver                  */
     private val driverObj : org.postgresql.Driver = registerIfNeeded( org.postgresql.Driver() )
@@ -78,11 +78,11 @@ open class PgDB : IDatabase
     var dbName = ""
 
 
-    fun getNumBusyConnections() : Int {
+    open fun getNumBusyConnections() : Int {
         return 0
     }
 
-    fun getJdbcUrl() : String {
+    open fun getJdbcUrl() : String {
         return cnnString!!
     }
 
@@ -97,9 +97,9 @@ open class PgDB : IDatabase
         }
     }    //	close
 
-    private var maxRetries : Int = 5
-    private var minWaitSecs : Int = 2
-    private var maxWaitSecs : Int = 10
+    protected var maxRetries : Int = 5
+    protected var minWaitSecs : Int = 2
+    protected var maxWaitSecs : Int = 10
 
     override val CachedConnection: Connection
     get() {
