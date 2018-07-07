@@ -298,6 +298,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/annotation/2.4.0/6084856ef233d617a102b057c1993aa065e5e457/annotation-2.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/annotation/2.4.0/7f43c76dc8c3687fa098e07fa50e7a571eb8b4cf/annotation-2.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.1/b7f61848ac43ae9fa6e38935bfd75628b7fc9086/postgresql-42.2.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
